@@ -48,7 +48,7 @@ h2 {
 .container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   width: calc(100vw - 10rem);
   margin: 0 auto;
   background-color: lavenderblush;
@@ -73,7 +73,7 @@ h2 {
 .item-main {
   background-color: lavenderblush;
   margin: 1rem;
-  flex-basis: 40%;
+  flex-basis: 50%;
 }
 
 .item-text {
@@ -106,9 +106,19 @@ strong {
   flex-basis: 25%;
 }
 
+#index.item,
+#projects.item,
+#about.item {
+  text-align: center;
+}
+
 .item p {
   background-color: lavenderblush;
   font-size: 2rem;
+}
+
+.item img {
+  margin: 5rem;
 }
 
 footer {
@@ -144,7 +154,7 @@ nav a {
   }
 } */
 
-#projects .container {
+/* #projects .container {
   flex-flow: column wrap;
 }
 
@@ -155,7 +165,7 @@ nav a {
 #projects .item img {
   width: 30vw;
   margin-left: 15rem;
-}
+} */
 
 #contact .container h2 {
   background-color: lavenderblush;
